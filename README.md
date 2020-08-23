@@ -1,7 +1,7 @@
 # R_Analysis
 
 ## Project Description
-The project consisted of performing statistical tests to create a technical report for the AutosRUs' MechaCar product development team to justify design choices, using quantitative and qualitative reasoning.
+The project consisted of performing statistical tests to create a technical report for the AutosRUs' MechaCar product development team to justify design choices.
 
 ## Resources
 - Data source:
@@ -21,7 +21,7 @@ __Coefficients:__
 | -1.040e+02 | 6.267e+00 | 1.245e-03 | 6.877e-02 | 3.546e+00 | -3.411e+00 |
 
 __Coefficients:__
-| - | Estimate | Std. Error | t value | Pr(>|t|) |
+| Variable | Estimate | Std. Error | t value | Pr(>|t|) |
 | ------ | ------ | ------ | ------ | ------ |
 | (Intercept) | -1.040e+02 | 1.585e+01 | -6.559 | 5.08e-08 |
 | vehicle.length | 6.267e+00 | 6.553e-01 | 9.563 | 2.60e-12 |
@@ -30,9 +30,9 @@ __Coefficients:__
 | ground.clearance | 3.546e+00 | 5.412e-01 | 6.551 | 5.21e-08 |
 | AWD | -3.411e+00 | 2.535e+00 | -1.346 | 0.1852 |
 
-Multiple R-squared:  0.7149\
-Adjusted R-squared:  0.6825\
-p-value: 5.35e-11
+__Multiple R-squared:__  0.7149\
+__Adjusted R-squared:__  0.6825\
+__p-value:__ 5.35e-11
 
 The p-value is 5.35e-11, which is much smaller than the assumed significance level of 0.05. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
@@ -55,10 +55,10 @@ __PSI:__
 | 3rd Qu. | 1501 |
 | Max. | 1542 |
 
-Mean: 1499\
-Median: 1500\
-Variance: 62.29356\
-Standard deviation: 7.892627
+__Mean:__ 1499\
+__Median:__ 1500\
+__Variance:__ 62.29356\
+__Standard deviation:__ 7.892627
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per inch. The current manufacturing data meets the design specification, with a variance of 62.3 pounds per inch.
 
@@ -88,8 +88,8 @@ __Metrics:__
 - Horsepower
 
 __Statistical Test__
-Is there a difference between the prototype metric and the market metric?
-__H0__ : There is no statistical difference between the prototype sample mean and the market mean.
+Is there a difference between the prototype metric and the market metric?\
+__H0__ : There is no statistical difference between the prototype sample mean and the market mean.\
 __Ha__ : There is a statistical difference between the prototype sample mean and the market mean.
 
 The collected data for the market vehicles and prototypes should match the metrics chosen for the study.
